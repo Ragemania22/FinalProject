@@ -27,6 +27,7 @@ public class LedgerEntry {
 	public void displayEntry() {
 		System.out.println("------------------------------------------------------");
 		System.out.println("Entry Type: " + entryType);
+		System.out.println("Zipcode: " + zipcode);
 		if(depositAmount != 0) {
 			System.out.printf("Deposited Amount: $%.2f " + depositAmount);
 		}
@@ -34,7 +35,7 @@ public class LedgerEntry {
 			System.out.printf("Withdrawn Amount: $%.2f " + withdrawAmount);
 		}
 		System.out.printf("Current amount: $%.2f", amount);
-		System.out.println("Zipcode: " + checkZipcode());
+		
 		System.out.println("------------------------------------------------------");
 	}
 	

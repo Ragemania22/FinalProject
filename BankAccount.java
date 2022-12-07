@@ -1,11 +1,11 @@
 
 /*
- * Account Owner (String)
- * Owners zipcode (String) I set this a string because I will be using either the first two or three characters to run the checks in the LedgerEntry summary
- * initialBalance (double)
- * LedgerEntry[] accountLedger // the collection of all the transactions (as objects)
- * ledgerEntryCount (int) // number of entries thus far
- * MAX_ENTRIES (final int) // The max amount of entries I would like to store in the project (Will never go over 100 entries) 
+ * 
+ * Code changed the only issue I do have is using the zipcode to validate transactions
+ * Should I use a boolean methods that the input is the zipcode string then run if the string starts "11" (area of where he lives)
+ * then it return true and continues the looping process if it does not start with "11" then it prompts the user a scanner method that says
+ * Do you authorize this transaction 
+ *  
  */
 
 
